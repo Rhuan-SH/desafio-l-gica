@@ -10,6 +10,7 @@ Conforme evolui, seu herói sobe de nível e todo o histórico das batalhas é e
 ✅ Ganho ou perda de XP de forma aleatória
 ✅ Classificação de níveis de acordo com o XP
 ✅ Histórico de todas as batalhas realizadas
+
 | XP Total | Nível      |
 | -------- | ---------- |
 | < 1000   | Ferro      |
@@ -20,47 +21,42 @@ Conforme evolui, seu herói sobe de nível e todo o histórico das batalhas é e
 | < 9000   | Ascendente |
 | < 10000  | Imortal    |
 | ≥ 10000  | Radiante   |
+
+
 🛠️ Como jogar
 Pré-requisitos
-
 Ter o Python 3 instalado 
-
 Executando o jogo
-
 Clone o repositório e rode o script:
 git clone https://github.com/seu-usuario/projeto-nivel-heroi.git
 cd projeto-nivel-heroi
 python main.py
 
+
 🎮 Exemplo de Gameplay
 Digite o nome do herói: Rhuan
 Bem-vindo, Rhuan!
-
 Você deseja batalhar? (s/n): s
 Você entrou em uma batalha!
 Batalhando...
 Parabéns! Você venceu a batalha!
 Você ganhou 212 pontos de experiência!
-
 Você deseja batalhar? (s/n): s
 Você entrou em uma batalha!
 Batalhando...
 Você perdeu a batalha.
 Você perdeu 28 pontos de experiência.
-
 Você deseja batalhar? (s/n): n
 Você decidiu não batalhar. Até a próxima!
-
 O herói de nome Rhuan está no nível Bronze.
-
 Histórico de batalhas:
 Batalha 1: Você venceu e ganhou 212 pontos de experiência.
 Batalha 2: Você perdeu e perdeu 28 pontos de experiência.
+
 
 💡 Ideias de melhorias
 .Salvar progresso em arquivo JSON
 .Adicionar inimigos com diferentes dificuldades
 .Criar sistema de itens e equipamentos
 .Implementar uma interface gráfica (Tkinter ou Pygame)
-
 ⚡ Divirta-se evoluindo seu herói e testando sua sorte nas batalhas!
