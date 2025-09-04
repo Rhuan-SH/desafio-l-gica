@@ -56,6 +56,6 @@ while True:
 nivel = classificar_nivel(xptotal)
 print("O herói de nome " + nomeHeroi + " está no nível " + classificar_nivel(xptotal) + ".")
 print("\nHistórico de batalhas:")
-for i, batalha in enumerate( 1):
+for i, batalha in enumerate( historico, 1):
     status = "venceu" if batalha["xp"] > 0 else "perdeu"
     print(f"Batalha {i}: Você {status} e {'ganhou' if batalha['xp'] > 0 else 'perdeu'} {abs(batalha['xp'])} pontos de experiência.")
